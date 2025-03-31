@@ -1,4 +1,0 @@
-<launch>
-    <node pkg="race" type="overtaker.py" name="overtaker" output="screen"/> 
-    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find race)/pp_config.rviz"/> 
-</launch>

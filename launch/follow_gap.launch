@@ -1,6 +1,0 @@
-<launch>
-    
-    <node pkg="race" type="ftg_control.py" name="control" output="screen"/>
-    <node pkg="race" type="rviz_test.py" name="rviz_test" output="screen"/>
-  
-</launch>

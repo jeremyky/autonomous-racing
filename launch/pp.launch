@@ -1,6 +1,0 @@
-<launch>
-    <arg name="raceline" default="demoline"/>
-    <node pkg="race" type="pp_control.py" name="control" output="screen"/>
-        <param name="param_name" value="$(arg raceline)"/>
-  
-</launch>
